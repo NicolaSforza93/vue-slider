@@ -44,8 +44,8 @@ createApp({
             }
         },
 
-        onClick(thumbIndex) {
-            this.currentIndex = thumbIndex;
+        onClick(index) {
+            this.currentIndex = index;
         },
 
         stopAutoPlay() {
